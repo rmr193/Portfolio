@@ -147,4 +147,54 @@
     border-radius: 30px;
     cursor: pointer;
   }
+
+  .project{
+    background: #101010;
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .title h2{
+    color: white;
+    font-size: 60px;
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+  .card{
+    height: 45vh;
+    width: 20vw;
+    padding: 20px 35px;
+    background: #1b1a1a;
+    border-radius: 20px;
+    margin: 5vh;
+    position: relative;
+    text-align: center;
+  }
+  h5{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 15px;
+  }
+  .test p{
+    color: wheat;
+    font-size: 2vh;
+    line-height: 25px;
+    margin-bottom: 100px;
+  }
+  .card .button{
+  background-color: rgb(240, 15, 15);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  }
   
