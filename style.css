@@ -197,4 +197,28 @@
   border-radius: 30px;
   cursor: pointer;
   }
-  
+  .Contact-me{
+    width: 100%;
+    height: 300px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .Contact-me p{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:30px ;
+    }
+    .Contact-me .button-b{
+    background-color: rgb(240, 15, 15);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    }
