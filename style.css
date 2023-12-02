@@ -180,6 +180,7 @@
     color: white;
     font-size: 150%;
     margin-bottom: 15px;
+    margin-top: 10%;
   }
   .test p{
     color: wheat;
@@ -221,4 +222,34 @@
     padding: 13px 30px;
     border-radius: 30px;
     cursor: pointer;
+    }
+    footer{
+      position: relative;
+      width: 100%;
+      height: 200px;
+      background: #101010;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    footer p:nth-child(1){
+      font-size: 30px;
+      color: white;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    footer p:nth-child(2){
+      color: wheat;
+      font-size: 20px;
+      width: 500px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .footer{
+      position: absolute;
+      color: #f9004d;
+      margin-top: 280px;
+      font-size: 14px;
     }
